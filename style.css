@@ -54,3 +54,9 @@ a:hover{
     border: 2px solid light-dark(var(--white), var(--red));
 }
 
+@media (max-width: 1100px){
+    #prezenty{
+        display:flex;
+        flex-direction: column
+    }
+}
